@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Course Reg Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="FirstName">FirstName</label></td>
+            <td><input type="text" name="fname" id="fname" /> <br /></td>
+          </tr>
+          <tr>
+            <td><label for="sname">SurName</label></td>
+            <td><input type="text" name="sname" id="sname" /><br /></td>
+          </tr>
+          <tr>
+            <td><label for="mob">Mobile Num</label></td>
+            <td><input type="tel" name="mob" id="mob" /><br /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email" /> <br /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" name="password" id="password" /> <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="cpassword">Confirm Password</label></td>
+            <td>
+              <input type="password" name="cpassword" id="cpassword" /> <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date Of Birth</label></td>
+            <td><input type="date" name="dob" id="dob" /> <br /></td>
+          </tr>
+          <tr>
+            <td><label for="age">Age</label></td>
+            <td>
+              <input type="number" name="age" id="age" min="18" max="65" />
+              <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="g">Gender</label></td>
+            <td>
+              <input type="radio" name="g" value="Male" /> <label>Male</label>
+              <input type="radio" name="g" value="Female" />
+              <label>Female</label>
+              <input type="radio" name="g" value="Others" />
+              <label>Others</label> <br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="selectcountry">Select Country</label></td>
+            <td>
+              <select name="selectcountry" id="selectcountry">
+                <option value="usa" disabled>USA</option>
+                <option value="ind">INDIA</option>
+                <option value="chi">CHINA</option></select
+              ><br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="upload">Upload Your resume</label></td>
+            <td><input type="file" name="upload" id="upload" /> <br /></td>
+          </tr>
+        </table>
+
+        <label for="feedback">FeedBack</label>
+        <textarea name="feedback" id="feedback" rows="4" cols="40"></textarea>
+        <br />
+
+        <input type="submit" /> <br />
+      </fieldset>
+    </form>
+  </body>
+</html>
